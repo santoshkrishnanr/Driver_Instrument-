@@ -23,7 +23,7 @@ The Driver Demonstrator request the weight by sending "S" to the Instrument Demo
 ### Working
  [instrument.js](https://github.com/santoshkrishnanr/Driver_Instrument-/blob/master/Instrument/instrument.js) runs as a server near the instrument and listens for the request from the driver.
 when a particular request is received to the server it sends the signal to the instrument by serially in USB and receives the static weight, if calculated or gives an error if not calculated.
-[drevestoage.js](https://github.com/santoshkrishnanr/Driver_Instrument-/blob/master/Driver/drivestorage.js) justs sends the request to check if the instrument Demonstrator is online every second and for every 3 seconds it requests for static weight and stores it in a file [text1.txt](https://github.com/santoshkrishnanr/Driver_Instrument-/blob/master/Driver/write1.txt).
+[drivestoage.js](https://github.com/santoshkrishnanr/Driver_Instrument-/blob/master/Driver/drivestorage.js) justs sends the request to check if the instrument Demonstrator is online every second and for every 3 seconds it requests for static weight and stores it in a file [text1.txt](https://github.com/santoshkrishnanr/Driver_Instrument-/blob/master/Driver/write1.txt).
 
 ### Requirement
 For development, you will need Node.js
@@ -38,7 +38,7 @@ Terminal 2 $ cd Driver_instrument/Driver $ node drivestorage.js
 
 ### Future Improvement
 
-* Storing all the static weight  in a  temporary file in the raspberry pi and sharing when the driver gets connected and request the particular value.
+* Storing all the static weight  in a  temporary file in the raspberry pi and sharing when the driver gets connected or request the particular weight.
 
 * Using other different effective way of communication.
 
