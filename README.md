@@ -40,5 +40,5 @@ Terminal 2 $ cd Driver_instrument/Driver $ node drivestorage.js
 
 * Storing all the static weight  in a  temporary file in the raspberry pi and sharing when the driver gets connected and request the particular value.
 
-* Using other different effective way of communication like web socket .
+* Using other different effective way of communication.
 
